@@ -2,7 +2,6 @@
 
 **Created:** 2026-02-06 12:20 Muscat
 **Status:** ✅ Ready to publish
-**Location:** `/home/ubuntu/.openclaw/workspace/text-browser/`
 
 ---
 
@@ -78,13 +77,11 @@ Choose one of these methods:
 
 **Automated script:**
 ```bash
-cd /home/ubuntu/.openclaw/workspace/text-browser
 ./publish.sh
 ```
 
 **Manual command:**
 ```bash
-cd /home/ubuntu/.openclaw/workspace/text-browser
 clawhub publish . --slug text-browser --name "Text Browser" --version 1.0.0 --changelog "Initial release"
 ```
 

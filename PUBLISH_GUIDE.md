@@ -2,7 +2,6 @@
 
 ## Skill Created ✅
 
-**Location:** `/home/ubuntu/.openclaw/workspace/text-browser/`
 **Structure:** ✅ Complete (SKILL.md present)
 **Description:** Text-based browser automation for web research, scraping, and programmatic interactions
 
@@ -37,7 +36,8 @@ To publish this skill to ClawHub, we need GitHub authentication.
 
 **Then publish:**
 ```bash
-cd /home/ubuntu/.openclaw/workspace/text-browser
+./publish.sh
+# or manually:
 clawhub publish . --slug text-browser --name "Text Browser" --version 1.0.0 --changelog "Initial release - Text-based browser automation skill for web research, scraping, and automation"
 ```
 
@@ -54,7 +54,8 @@ clawhub publish . --slug text-browser --name "Text Browser" --version 1.0.0 --ch
 
 **Then publish:**
 ```bash
-cd /home/ubuntu/.openclaw/workspace/text-browser
+./publish.sh
+# or manually:
 clawhub publish . --slug text-browser --name "Text Browser" --version 1.0.0 --changelog "Initial release - Text-based browser automation skill for web research, scraping, and automation"
 ```
 

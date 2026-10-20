@@ -23,7 +23,8 @@ echo "✅ Authenticated as: $(clawhub whoami)"
 echo ""
 
 # Navigate to skill directory
-cd /home/ubuntu/.openclaw/workspace/text-browser
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
 # Publish skill
 echo "📦 Publishing skill to ClawHub..."
